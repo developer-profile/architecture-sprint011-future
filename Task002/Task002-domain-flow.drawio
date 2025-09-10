@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="fTryUApqvhuKxN4Z-mmA" name="Untitled">
+    <mxGraphModel dx="1367" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zsSujqEUphCIVGNM6VI5-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="80" y="210" width="880" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-4" value="Финансовый домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="zsSujqEUphCIVGNM6VI5-1" vertex="1">
+          <mxGeometry width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-5" value="Аналитика" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="zsSujqEUphCIVGNM6VI5-1" vertex="1">
+          <mxGeometry x="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="zsSujqEUphCIVGNM6VI5-1" source="NRLrbeuYvZeNo_-bHFe4-4" target="NRLrbeuYvZeNo_-bHFe4-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="20" as="sourcePoint" />
+            <mxPoint x="560" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-7" value="BI-портал" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="zsSujqEUphCIVGNM6VI5-1" vertex="1">
+          <mxGeometry x="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="zsSujqEUphCIVGNM6VI5-1" source="NRLrbeuYvZeNo_-bHFe4-5" target="NRLrbeuYvZeNo_-bHFe4-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="20" as="sourcePoint" />
+            <mxPoint x="560" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-15" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Данные&lt;/b&gt;: Рассрочка, Транзакции, кредиты&lt;br&gt;&lt;b&gt;Изменение&lt;/b&gt;: Потоковая передача.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zsSujqEUphCIVGNM6VI5-1" vertex="1">
+          <mxGeometry y="80" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-16" value="&lt;b&gt;Данные&lt;/b&gt;: Витрины Snowflake&lt;br&gt;&lt;b&gt;Изменение&lt;/b&gt;: Использование Data Marketplace" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zsSujqEUphCIVGNM6VI5-1" vertex="1">
+          <mxGeometry x="410" y="80" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsSujqEUphCIVGNM6VI5-2" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="80" y="80" width="785" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-1" value="Клинический домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="zsSujqEUphCIVGNM6VI5-2" vertex="1">
+          <mxGeometry width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-2" value="ИИ-сервисы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="zsSujqEUphCIVGNM6VI5-2" vertex="1">
+          <mxGeometry x="335" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="zsSujqEUphCIVGNM6VI5-2" source="NRLrbeuYvZeNo_-bHFe4-1" target="NRLrbeuYvZeNo_-bHFe4-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="180" as="sourcePoint" />
+            <mxPoint x="555" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-12" value="API-интеграция" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="zsSujqEUphCIVGNM6VI5-2" vertex="1">
+          <mxGeometry x="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="zsSujqEUphCIVGNM6VI5-2" source="NRLrbeuYvZeNo_-bHFe4-2" target="NRLrbeuYvZeNo_-bHFe4-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="220" as="sourcePoint" />
+            <mxPoint x="555" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-14" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Данные&lt;/b&gt;: Результаты обследований, дифференциальный диагноз&lt;br&gt;&lt;b&gt;Изменение&lt;/b&gt;: API-интеграция&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zsSujqEUphCIVGNM6VI5-2" vertex="1">
+          <mxGeometry y="80" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsSujqEUphCIVGNM6VI5-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="80" y="340" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-9" value="Операционный домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="zsSujqEUphCIVGNM6VI5-3" vertex="1">
+          <mxGeometry width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-10" value="Финансы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="zsSujqEUphCIVGNM6VI5-3" vertex="1">
+          <mxGeometry x="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="zsSujqEUphCIVGNM6VI5-3" source="NRLrbeuYvZeNo_-bHFe4-9" target="NRLrbeuYvZeNo_-bHFe4-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="110" as="sourcePoint" />
+            <mxPoint x="580" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRLrbeuYvZeNo_-bHFe4-17" value="&lt;b&gt;Данные&lt;/b&gt;: Зарплаты, бюджеты, процессы (REST API).&lt;br&gt;&lt;b&gt;Изменение&lt;/b&gt;: Синхронизация без зависимостей." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zsSujqEUphCIVGNM6VI5-3" vertex="1">
+          <mxGeometry y="80" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
