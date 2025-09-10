@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Untitled" id="uifF4aZeOeq36Zq48qRO">
+    <mxGraphModel dx="1367" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="42qICDjAOCw5qiPWB7tD-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Этапы, результаты и ответственные&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="40" width="540" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-2" value="&amp;nbsp;&lt;b&gt;Этап&lt;/b&gt;: Создание плана после аналитики&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Срок: &lt;/b&gt;30 дней/4 недели/2 спринта по 2 недели&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Результаты: &lt;/b&gt;Готовая архитектурная схема, TCO-расчёт, выбор облачного провайдера (AWS/GCP)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Команды: &lt;/b&gt;Архитекторы, CTO&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Ресурсы: &lt;/b&gt;Консультанты по облаку, аудит безопасности&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="170" y="160" width="800" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-3" value="&amp;nbsp;&lt;b&gt;Этап&lt;/b&gt;:&amp;nbsp; Миграция на Snowflake&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Срок: &lt;/b&gt;с 31 по 90 день/8 недель/4 спринта по 2 недели&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Результаты: &lt;/b&gt;Перенос 80% данных из SQL Server, настройка CDC (Kafka)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Команды: &lt;/b&gt;Data Engineering, DevOps&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Ресурсы: &lt;/b&gt;Snowflake credits, ETL-инструменты (Fivetran/dbt)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="170" y="270" width="800" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-4" value="&amp;nbsp;&lt;b&gt;Этап&lt;/b&gt;: Запуск Data Pipeline&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Срок: &lt;/b&gt;с 61 по 121 день/8 недель/4 спринта по 2 недели&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Результаты: &lt;/b&gt;Рабочие Kafka-топики для финансовых и медицинских событий&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Команды: &lt;/b&gt;Backend-разработчики, DataOps&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Ресурсы: &lt;/b&gt;Apache Kafka, Apache Airflow, мониторинг (Grafana)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="170" y="390" width="800" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-5" value="&amp;nbsp;&lt;b&gt;Этап&lt;/b&gt;: Предварительный проект Bi-портала&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Срок: &lt;/b&gt;c 121 по 180 день/8 недель/4 спринта по 2 недели&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Результаты: &lt;/b&gt;Data Marketplace на Metabase с 10+ дашбордами для финтеха и клиник&lt;/div&gt;&lt;div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Команды: &lt;/b&gt;BI-аналитики, Frontend&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Ресурсы: &lt;/b&gt;Metabase (open-source), Power BI (временная интеграция)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="170" y="510" width="800" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-6" value="&amp;nbsp;&lt;b&gt;Этап&lt;/b&gt;:&amp;nbsp; Оптимизация доменной структуры&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Срок: &lt;/b&gt;с 181 по 240 день/8 недель/4 спринта по 2 недели&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Результаты: &lt;/b&gt;Автономные БД: PostgreSQL (медицина), MongoDB (ИИ), Kafka (финансы)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Команды: &lt;/b&gt;Разработчики доменов, DB Admins&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Ресурсы:&amp;nbsp;&lt;/b&gt;Облачные БД (AWS RDS/MongoDB Atlas), документация API&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="170" y="630" width="800" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-7" value="&amp;nbsp;&lt;b&gt;Этап&lt;/b&gt;: Уровни доступа, Security&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Срок: &lt;/b&gt;c 271 по 330 день/8 недель/4 спринта по 2 недели&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Результаты:&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Команды:&lt;/b&gt;Security, DevOps&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Ресурсы:&amp;nbsp;&lt;/b&gt;HashiCorp Vault, SIEM-системы (Splunk)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="170" y="757" width="800" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-8" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;strokeWidth=4;strokeColor=#33FF33;" parent="1" source="42qICDjAOCw5qiPWB7tD-2" target="42qICDjAOCw5qiPWB7tD-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="370" as="sourcePoint" />
+            <mxPoint x="580" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-9" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;strokeWidth=4;strokeColor=#33FF33;" parent="1" source="42qICDjAOCw5qiPWB7tD-3" target="42qICDjAOCw5qiPWB7tD-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="600" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-10" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;strokeWidth=4;strokeColor=#33FF33;" parent="1" source="42qICDjAOCw5qiPWB7tD-4" target="42qICDjAOCw5qiPWB7tD-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="580" as="sourcePoint" />
+            <mxPoint x="600" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-11" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;strokeWidth=4;strokeColor=#33FF33;" parent="1" source="42qICDjAOCw5qiPWB7tD-5" target="42qICDjAOCw5qiPWB7tD-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="580" as="sourcePoint" />
+            <mxPoint x="600" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-12" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;strokeWidth=4;strokeColor=#33FF33;" parent="1" source="42qICDjAOCw5qiPWB7tD-6" target="42qICDjAOCw5qiPWB7tD-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="630" as="sourcePoint" />
+            <mxPoint x="600" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-15" value="&amp;nbsp;&lt;b&gt;Этап&lt;/b&gt;:&amp;nbsp; Документирование систем и процессов&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Срок: &lt;/b&gt;В течении 12 месяцев&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Результаты: &lt;/b&gt;Гайды для пользователей Data Marketplace, API-документация для разработчиков&lt;/div&gt;&lt;div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Команды: &lt;/b&gt;Технические писатели&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&amp;nbsp;Ресурсы: &lt;/b&gt;Confluence, внутренние воркшопы&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="170" y="890" width="800" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="42qICDjAOCw5qiPWB7tD-19" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;strokeWidth=4;strokeColor=#33FF33;" parent="1" source="42qICDjAOCw5qiPWB7tD-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="990" as="sourcePoint" />
+            <mxPoint x="570.0000000000002" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
